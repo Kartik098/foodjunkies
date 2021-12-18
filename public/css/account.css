@@ -1,0 +1,32 @@
+.sidebar{
+    height: 100%;
+    width:150px;
+    background-color: rgb(207, 148, 148);
+    padding-top:40px;
+    left:0;
+    bottom:0;
+    float: left;
+    
+}
+.activity a:active{
+    background-color: rgb(105, 103, 103);
+    border-left: brown 10px;
+}
+.activity a:hover{
+    background-color: rgb(105, 103, 103);
+    text-decoration: none;
+    color: lightgray;
+}
+.sidebar div{
+    padding: 8px;
+    font-size: 20px;
+    display: block;
+    float: left;
+    font-family: 'ubuntu';
+    color: lightgray;
+    font-weight:30;
+}
+.body-text {
+    margin-left: 150px;
+    font-size: 18px;
+    }

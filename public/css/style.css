@@ -1,0 +1,342 @@
+.navbar{
+    background-color: #282A35;
+    padding: 20px 5px 10px 5px;
+    
+}
+.container {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .container {
+    padding-top: 60px;
+  }
+a:link {
+    color: black;
+   
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.nav-item {
+    border-radius: 5px;
+    padding: 0px;
+    border: 5px rgb(211, 72, 72);
+    margin: 0px 20px;
+    color: white;
+    }
+h5{
+  font-family: "monserrat";
+  font-weight: 20px;
+  
+    }
+.person{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+
+}
+.person-tab{
+  height: 300px;
+  width: 260px;
+  padding-top: 30px;
+  border: black 1px;
+  border-style: double;
+  background-color: rgb(211, 222, 231);
+  
+}
+.container-fluid{
+    position: relative;
+  
+}
+#dropdownMenuButton{
+  background-color: blueviolet;
+}
+
+.button-border{
+  border: none;
+  color: #fff;
+}
+body, html {
+    height: 100%;
+}
+
+#hero{
+  width: 100%;
+  height: 100vh;
+  background: url("fast-food.jpg") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h3{
+  text-align: left;
+}
+.icon {
+	padding: 7% 15%; 
+}
+.burger{
+  background-position: center;
+  padding-left: 100px;
+  align-items: center;
+  height:90%;
+}
+.icon-color{
+  color: rgb(67, 65, 170);
+}
+h6{
+  padding-left: 115px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: left;
+  position: absolute;
+  
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  margin: 15% 10% 20%;
+}
+
+.container {
+    margin-left: 200px;
+    display: flex;
+}
+.card-
+.carousel {
+    width: 950px;
+    max-height: 600px;
+    margin-left:-140px;
+    
+    flex-direction: column;
+}
+.carousel img{
+  min-height: 4em;
+}
+@media screen and (max-width:960px) {
+  .carousel{
+    flex : 1.5px;
+    
+    max-height: 600px;
+  }
+  }
+  @media screen and (max-width:600px) {
+    .carousel{
+      flex : 1.5px;
+      
+      max-height:200px;
+      height: 50%;
+    }
+    }
+#quick-tabs{
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+.tab{
+    align-items: center;
+    padding: 35px;
+    background-color: transparent;
+    border-radius: 100%;
+    min-width: 30px;
+}
+.margarita{
+    height: 650px;
+}
+.slides {
+    height: 700px;
+    max-width:1200px;
+    position: inherit;
+    margin: left;
+}
+.krusty{
+    max-height:160px;
+}
+/* carousel */
+#carousel {
+  overflow: hidden;
+ }
+ #carousel figure {
+     position: relative;
+     width: 420%;
+     margin: 0;
+     left: 0;
+     animation: slider 20s infinite;
+ }
+ #carousel figure img {
+     width: 20%;
+     max-height: 600px;
+     float: left;
+ }
+ @keyframes slider {
+     0% {
+         left:0;
+     }
+     20% {
+         left: 0;
+     }
+     25% {
+         left: -100%;
+     }
+     50% {
+         left: -200%;
+     }
+     70% {
+         left: -200%;
+     }
+     75% {
+         left: -300%;
+     }
+     95% {
+         left: -300%;
+     }
+     
+ }
+.carousel img {
+    width: 100%;
+    height: 70%;
+
+}
+/* testimonials */
+#testimonials{
+  padding: 40px 0;
+  background-color: #f1f1f1;
+  color :#434343;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.border{
+  width:160px;
+  height:6px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex:33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin:20px 0;
+}
+.stars{
+  color:#6ab04c;
+  margin-bottom: 20px;
+}
+@media screen and (max-width:960px) {
+.col{
+  flex : 100%;
+  max-width: 80%;
+}
+}
+@media screen and (max-width:600px) {
+  .col{
+    flex : 100%;
+    max-width: 100%;
+  }
+  }
+/* aboutus */
+#aboutus{
+  background-color: #0D98BA;
+  max-height: 600px;
+  padding-bottom: 0;
+}
+.heading{
+  
+  padding: 30px;
+  
+}
+.mission-text{
+  text-align: center;
+  padding-bottom: 50px;
+}
+/* chef */
+.ourchef{
+  background-color: #0D98BA ;
+  border: black double 2px;
+}
+.text{
+  padding: 200px 200px 0 0;
+  
+  text-align: center;
+}
+.chefpic{
+  padding: 100px 100px;
+  
+  text-align: center;
+}
+.lighbox img{
+  height: 200px;
+  width: 300px;
+  padding: 100px;
+  text-align: center;
+}
+.lighbox{
+  height: 300px;
+  padding: 100px;
+  text-align: center;
+}
+/* hours */
+.hours{
+  height: 300px;
+  background-image:url(images/galleryimg.jpg);
+  display:cover;
+}
+.hour-bg{
+  margin: auto;
+  margin-top: 150px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 150px;
+  width: 50%;
+  align-self: center;
+  background-color: green;
+  border: black double 2px;
+}
+.hour-bg h1{
+  vertical-align: middle;
+  margin-top: 30px;
+  
+}
+footer{
+  margin-top: -800px;
+}
